@@ -7,8 +7,10 @@
     "start": "nodemon server.js"
   },
   "dependencies": {
-    "config": "^3.3.6",
-    "express": "^4.17.1"
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
